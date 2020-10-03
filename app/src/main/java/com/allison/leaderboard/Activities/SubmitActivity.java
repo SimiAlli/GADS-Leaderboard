@@ -73,6 +73,8 @@ public class SubmitActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mAlertDialog.dismiss();
               submitProject(v);
+              finish();
+//              Check this line
             }
         });
         mCancelButton = mDialogView.findViewById(R.id.cancel_button);
@@ -99,9 +101,11 @@ public class SubmitActivity extends AppCompatActivity {
         mAlertDialog = builder.create();
         mAlertDialog.show();
         mAlertDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            
             @Override
             public void onDismiss(DialogInterface dialog) {
                 finish();
+
             }
         });
     }

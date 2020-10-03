@@ -27,4 +27,11 @@
     <string name="caption_text">Are you sure</string>
     <string name="retry_message">Retry</string>
     <string name="submit_button_text">Submit</string>
+    <string name="project_link">Project on GITHUB (link)</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="project_submission_caption">Project Submission</string>
+    <string name="gads_logo_description">GADS Logo</string>
+    <string name="go_back_button_description">Go back Button</string>
 </resources>
