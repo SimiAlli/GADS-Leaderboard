@@ -127,8 +127,8 @@ public class SubmitActivity extends AppCompatActivity {
     }
 
     void validateFields(View v) {
-        if (mFirstName.getText().toString().isEmpty() || mLastName.getText().toString().isEmpty()|| mEmailAddress.getText().toString().isEmpty()
-                || mProjectLink.getText().toString().isEmpty()) {
+        if (mFirstName.getText().toString().trim().isEmpty() || mLastName.getText().toString().isEmpty()|| mEmailAddress.getText().toString().isEmpty()
+                || mProjectLink.getText().toString().trim().isEmpty()) {
             Toast.makeText(this, "Missing field! All fields are required!", Toast.LENGTH_SHORT).show();
             return;
         }
